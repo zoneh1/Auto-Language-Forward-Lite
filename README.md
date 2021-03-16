@@ -1,3 +1,5 @@
+![cover](https://user-images.githubusercontent.com/69988594/111387147-51d8c100-86be-11eb-8880-5c0b447a31bf.png)
+
 # Auto Language Forward Lite
 - Automatic language routing based on location, simple and customizable.
 
