@@ -1,6 +1,5 @@
 # Auto Language Forward Lite
-- Provides automatic redirection to language pages. Lite!
-Automatic language routing based on location, simple and customizable.
+- Automatic language routing based on location, simple and customizable.
 
 # Setup
 - Set the Auto Language Forward Lite page as index.php. Your visitors should see this page first.
