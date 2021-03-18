@@ -1,41 +1,34 @@
-![cover](https://user-images.githubusercontent.com/69988594/111387147-51d8c100-86be-11eb-8880-5c0b447a31bf.png)
-
 # Auto Language Forward Lite
-- Automatic language routing based on location, simple and customizable.
+Automatic language routing based on location, simple and customizable.
 
 # Setup
-- Set the Auto Language Forward Lite page as index.php. Your visitors should see this page first.
+Set the Auto Language Forward Lite page as index.php. Your visitors should see this page first.
 
 # Settings
-- It is very simple to add a language forwarding page, specify the address you will forward to with a single line.
-
-Sample:
+It is very simple to add a language forwarding page, specify the address you will forward to with a single line.</br></br>Sample:
 ```php
-	"country-code" => "/url-address/",
+"country-code" => "/url-address/",
 ```
 
-- Adding multiple languages. You can add unlimited languages ​​and direct them.
-Sample:
+Adding multiple languages. You can add unlimited languages and direct them.</br></br>Sample:
 ```php
-	$typhoon_sites = array(
-    "country-code" => "/url-address/",  
-	"country-code" => "/url-address/",
-	"country-code" => "/url-address/",
-	.
-	.
-	.
-	);
+$typhoon_sites = array(
+"country-code" => "/url-address/",  
+"country-code" => "/url-address/",
+"country-code" => "/url-address/",
+.
+.
+.
+);
 ```
 
-- Set your default address page. Define a default address that you will automatically forward to countries where you do not provide language support.
-
-Sample:
+Set your default address page. Define a default address that you will automatically forward to countries where you do not provide language support.</br></br>Sample:
 ```php
-	$typhoon_lang = 'default-address-country-code';
+$typhoon_lang = 'default-address-country-code';
 ```
 
 # Country Language Codes
-- The countries you are viewing at the bottom are listed according to their codes.
+The countries you are viewing at the bottom are listed according to their codes.</br>
 
 | Country   | Code |
 | ------------- | ------------- |
